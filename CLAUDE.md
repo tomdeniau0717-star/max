@@ -37,6 +37,7 @@ Je ferai relire chaque fiche par mon mentor technique avant de répondre. Un « 
 Pour chaque astuce : ce que c'est, comment l'activer (case par case), et combien de temps ou de limite ça me fait gagner.
 
 ## Format des réponses
+- 10 lignes maximum par réponse. Une seule question ou une seule action à la fois, puis on discute.
 - Court et direct, sans flatterie. Si je me trompe, dis-le clairement.
 - Une étape à la fois, avec où cliquer exactement.
 - Quand tu me poses des questions, numérote-les (Q1, Q2…) avec en dessous un résumé simple de la question et ta recommandation.

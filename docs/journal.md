@@ -21,3 +21,12 @@ Portée GitHub de cette session : `tomdeniau0717-star/max` uniquement.
 
 **À vérifier côté utilisateur** : que l'app GitHub est installée sur « Only select repositories »
 et n'inclut pas le dépôt snackly (https://github.com/apps/claude/installations/select_target).
+
+## 2026-11-02 — Décisions
+
+- **CLAUDE.md** : ajout de la règle de format (10 lignes max, une question ou action à la fois).
+- **App GitHub** : reste installée sur `snackly`, `kebab-beyo-pizza`, `max` — choix assumé,
+  nécessaire aux sessions Clickom. Cloisonnement assuré par les règles du CLAUDE.md, pas par
+  la portée GitHub. Retrait : https://github.com/apps/claude/installations/select_target
+- **Netlify** : non lié à Clickom, déconnecté par l'utilisateur.
+- **Slack** : connexion incomplète supprimée par l'utilisateur.
