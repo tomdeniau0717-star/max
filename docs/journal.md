@@ -30,3 +30,13 @@ et n'inclut pas le dépôt snackly (https://github.com/apps/claude/installations
   la portée GitHub. Retrait : https://github.com/apps/claude/installations/select_target
 - **Netlify** : non lié à Clickom, déconnecté par l'utilisateur.
 - **Slack** : connexion incomplète supprimée par l'utilisateur.
+
+## 2026-11-02 — Installation acceptée : yt-dlp
+
+- **Quoi** : paquet PyPI officiel `yt-dlp`, version 2026.10.26, installé par `pip3 install yt-dlp`
+  dans le conteneur de session cloud (pas sur la machine de l'utilisateur).
+- **Pourquoi** : lire des vidéos TikTok (sous-titres + images extraites avec ffmpeg).
+- **Droits donnés** : aucun. Lit des URL publiques, écrit dans le dossier temporaire de session.
+  Aucun identifiant, aucun cookie. Condition posée : ne jamais demander les identifiants TikTok.
+- **ffmpeg** : déjà présent (6.1.1), aucune installation supplémentaire.
+- **Retrait** : `pip3 uninstall yt-dlp`, ou rien — le conteneur est effacé en fin de session.
