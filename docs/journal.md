@@ -61,3 +61,11 @@ et n'inclut pas le dépôt snackly (https://github.com/apps/claude/installations
 - **Quota** : Security Guidance lance une revue IA à chaque arrêt de réponse → consommation en hausse.
 - **Retrait** : Paramètres → Plug-ins → interrupteur. Marketplaces : Gérer les marketplaces.
 - **Refusés** après audit : Graphify, claude-mem, C1, Superpowers (doublon), Context7, agrégateur MCP, Flare, Strix.
+
+## 2026-11-06 — Rangement des dépôts (état en fin de journée)
+
+- **Créé** : `clickom-mentors` (juridique + commercial, 66 fichiers, CLAUDE.md racine, code Clickom en lecture seule). Les deux conversations mentors tournent dessus.
+- **Archivés par Tom** : `clickom-legal-mentor`, `clickom-commercial-menthor-`. Anciennes conversations encore à archiver dans la barre latérale.
+- **Décision** : `apps` à supprimer (copies seulement), `track` et courses gardent chacun leur dépôt ; courses à renommer `family`. Mentor technique reste dans `kebab-beyo-pizza`.
+- **À faire demain** : tableau de bord (artefact), plugins par dépôt (impossible en cloud — un seul jeu par compte), ligne « clickom-mentors en lecture seule » dans le CLAUDE.md de `snackly`.
+- **Toujours ouvert** : clé Gemini dans Track, Netlify et Vercel à repointer, Gmail/Notion permissions.
