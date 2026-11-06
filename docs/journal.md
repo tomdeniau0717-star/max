@@ -40,3 +40,11 @@ et n'inclut pas le dépôt snackly (https://github.com/apps/claude/installations
   Aucun identifiant, aucun cookie. Condition posée : ne jamais demander les identifiants TikTok.
 - **ffmpeg** : déjà présent (6.1.1), aucune installation supplémentaire.
 - **Retrait** : `pip3 uninstall yt-dlp`, ou rien — le conteneur est effacé en fin de session.
+
+## 2026-11-06 — Installation acceptée : plugin frontend-design
+
+- **Quoi** : plugin `frontend-design` v1.1.1, éditeur Anthropic (officiel), 1 skill.
+- **Pourquoi** : interfaces plus travaillées quand Claude dessine un écran (site Clickom, Track).
+- **Droits donnés** : aucun — « ajoute uniquement des instructions pour Claude ».
+- **Où** : claude.ai → Paramètres → Plug-ins, donc actif sur toutes les sessions.
+- **Retrait** : même page, interrupteur à droite du nom.
