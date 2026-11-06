@@ -48,3 +48,16 @@ et n'inclut pas le dépôt snackly (https://github.com/apps/claude/installations
 - **Droits donnés** : aucun — « ajoute uniquement des instructions pour Claude ».
 - **Où** : claude.ai → Paramètres → Plug-ins, donc actif sur toutes les sessions.
 - **Retrait** : même page, interrupteur à droite du nom.
+
+## 2026-11-06 — Installations acceptées : trois plugins (Paramètres → Plug-ins)
+
+| Plugin | Éditeur | Version | Contenu | Synchro auto |
+|---|---|---|---|---|
+| Agent skills | Addy Osmani (tiers, MIT) | 0.6.15 | 25 skills, 9 commandes, 4 agents, hooks de cache doc (audités) | off |
+| i-have-adhd | ayghri (tiers, MIT) | — | 1 skill, hook de démarrage opt-in (audité) | off |
+| Security Guidance | Anthropic (officiel) | 2.0.17 | 5 hooks : alertes à l'édition, revue du diff à l'arrêt, revue des commits | — |
+
+- **Droits donnés** : aucun accès aux comptes. Les trois « peuvent exécuter du code sans demander » dans les sessions locales (Cowork) — scripts lus, sans réseau sortant hors pages déjà consultées.
+- **Quota** : Security Guidance lance une revue IA à chaque arrêt de réponse → consommation en hausse.
+- **Retrait** : Paramètres → Plug-ins → interrupteur. Marketplaces : Gérer les marketplaces.
+- **Refusés** après audit : Graphify, claude-mem, C1, Superpowers (doublon), Context7, agrégateur MCP, Flare, Strix.
