@@ -1,0 +1,14 @@
+# Reprise — état au 08/11/2026
+
+Résumé pour repartir d'une conversation neuve (ouverte sur le dépôt `max`). Détail daté : `docs/journal.md`.
+
+1. **Cadre** : CLAUDE.md du dépôt `max`. Réponses courtes, la réponse d'abord, une seule action à la fois. Rien ne s'installe sans fiche et sans « OK » écrit. Ne jamais toucher `snackly` ni les comptes Clickom.
+2. **Plugins installés** (Paramètres → Plug-ins, synchro auto coupée) : frontend-design, Agent skills (Osmani), i-have-adhd, Security Guidance, Ponytail. Tous audités. Refusés : Graphify, claude-mem, C1, ECC, Superpowers, Context7, agrégateur MCP, Flare, Strix, Taste. Impeccable et Emil Kowalski : plus tard. En session cloud, un seul jeu de plugins pour tous les dépôts.
+3. **Connecteurs** : Netlify et Slack retirés. Droits d'écriture de Gmail et Notion à réduire (non confirmé).
+4. **Dépôts** : `snackly` (Clickom, hors limites), `kebab-beyo-pizza` (mentor technique), `clickom-mentors` (juridique + commercial, code Clickom en lecture seule), `max`, `track`, `family` (courses, à renommer), `prosp-in-`, `viral`. `apps` à supprimer. Anciens dépôts mentors archivés.
+5. **Track** : l'app complète est sur la branche `claude/app-improvement-rps1uj` (`main` est vide). Correctif vocal sur `claude/voice-free-speech` (silence 1,8 s), à tester. Siri → Track fonctionne. Clé Gemini lisible dans le navigateur : à corriger. Netlify pointe encore sur l'ancien dépôt.
+6. **Lire un TikTok** : yt-dlp + ffmpeg dans la session cloud (texte à l'écran et sous-titres, pas la voix). yt-dlp est à réinstaller dans une nouvelle session : nouvelle fiche, nouvel « OK ».
+7. **Tableau « Ma journée »** : https://claude.ai/artifact/XrxeCzgeByZrFS4kPpB6NK (chrono, consommation, récap de la veille, actions). Le chrono se remplit par clics. Consommation et récap sont écrits par Claude. Tâche planifiée du soir proposée, jamais acceptée. Ancien tableau : https://claude.ai/artifact/TrktoFpWh2Do9F2XHzeR29 (garder ou supprimer ?).
+8. **Idées ouvertes** : skill « visuel commande » rédigé par Claude (question posée, sans réponse) ; un dépôt `visuels` : question à poser à « Plan de construction Snackly » sur `src/modeles/`.
+9. **Consommation** : une conversation par sujet, résumé de 10 lignes au-delà de 100 à 150 messages, modèle choisi au début et jamais changé en route. La limite hebdomadaire repart à zéro le samedi à 8 h.
+10. **Actions** : répondre au mentor commercial (revenu visé) ; fusionner la PR 85 de `kebab-beyo-pizza` ; choisir la boîte mail support@ et signalement@ ; rendez-vous Point-justice ou CCI ; clé Gemini de Track ; ligne « clickom-mentors en lecture seule » dans le CLAUDE.md de `snackly` ; repointer Netlify (track) et Vercel (family) ; tester le correctif vocal ; supprimer `apps` et renommer `family` ; archiver les anciennes conversations.
