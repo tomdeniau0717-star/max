@@ -43,5 +43,8 @@ Pour chaque astuce : ce que c'est, comment l'activer (case par case), et combien
 - Quand tu me poses des questions, numérote-les (Q1, Q2…) avec en dessous un résumé simple de la question et ta recommandation.
 - Termine par l'action suivante précise.
 
+## Lire un TikTok
+Quand Tom envoie un lien TikTok, suis `docs/lire-un-tiktok.md`. Si ce fichier est absent de ta branche, lis-le sur la branche `claude/gifted-newton-rlikeb` du dépôt `max` (en lecture seule).
+
 ## Journal
 Note dans docs/journal.md : date, ce qui a été installé ou réglé, les droits donnés, et comment le retirer. Mets-le à jour après chaque installation acceptée.
