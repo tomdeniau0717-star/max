@@ -9,6 +9,15 @@ Méthode éprouvée dans une session Claude Code cloud. Elle lit le **texte affi
 - Paquet : **`yt-dlp`** sur PyPI, exactement ce nom, pas une variante. Commande : `pip3 install yt-dlp`.
 - **Ne demande jamais** les identifiants ou les cookies TikTok. Si TikTok bloque, passe aux captures d'écran de Tom.
 
+## 1 bis. Si TikTok est bloqué
+
+Teste d'abord l'accès : `curl -s -o /dev/null -w "%{http_code}\n" -m 15 https://www.tiktok.com/`. Un échec ou un code 403 vient de l'environnement cloud, qui a un accès réseau restreint (c'est le cas de « Default »). Installer yt-dlp n'y changera rien.
+
+- Ouvre une **nouvelle conversation** dans un environnement à accès réseau illimité (« Par défaut » chez Tom). Une session déjà ouverte ne peut pas changer d'environnement.
+- Dans cette conversation, **ne rattache aucun dépôt sensible** (`snackly`, `kebab-beyo-pizza`) : un accès réseau illimité y est inutile. `max` suffit.
+- Ne tente pas d'autoriser TikTok hôte par hôte : les vidéos passent par des adresses qui changent.
+- Repli sans réseau : Tom envoie 3 ou 4 captures d'écran.
+
 ## 2. Lire la vidéo
 
 Travaille dans le dossier temporaire de la session, jamais dans un dépôt.
